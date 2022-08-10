@@ -41,6 +41,7 @@ public class Bank {
                             if (select.equals("y") || select.equals("Y")) {
                                 break;
                             } else if (select.equals("n") || select.equals("N")) {
+                                System.out.println("THANK YOU FOR BANKING US");
                                 break loopA;
                             } else {
                                 System.out.println("NOT A VALID OPTION");
@@ -66,6 +67,7 @@ public class Bank {
                         if (select.equals("y") || select.equals("Y")) {
                             break;
                         } else if (select.equals("n") || select.equals("N")) {
+                            System.out.println("THANK YOU FOR BANKING US");
                             break loopA;
                         } else {
                             System.out.println("NOT A VALID OPTION");
@@ -79,6 +81,7 @@ public class Bank {
                         if (select.equals("y") || select.equals("Y")) {
                             break;
                         } else if (select.equals("n") || select.equals("N")) {
+                            System.out.println("THANK YOU FOR BANKING US");
                             break loopA;
                         } else {
                             System.out.println("NOT A VALID OPTION");
