@@ -103,25 +103,27 @@ public class Bank {
     }
 
     // Deposit fund
-    public void deposit(double balance) {
+    private void deposit(double balance) {
+        //if (cash_inputted == balance){accept cash}
         this.balance += balance;
     }
 
     // Withdraw fund
 
-    public void withdraw(double balance) {
+    private void withdraw(double balance) {
+        //Output required cash
         this.balance -= balance;
     }
 
     // Display balance
-    public void display() {
+    private void display() {
         System.out.printf("YOUR CURRENT BALANCE IS $%.2f", getBalance());
         System.out.println(" ");
         System.out.println(" ");
     }
 
     // Continue online banking or end
-    public void moveOn() {
+    private void moveOn() {
 
         System.out.println("DO YOU WISH TO CONTINUE ? ");
         System.out.println("SELECT Y FOR YES");
@@ -130,6 +132,7 @@ public class Bank {
 
     public static void main(String[] args) {
         Bank b = new Bank();
+        
 
     }
 
