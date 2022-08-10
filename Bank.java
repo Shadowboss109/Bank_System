@@ -20,7 +20,14 @@ public class Bank {
     }
 
     public void display(){
-        System.out.printf("Your current balance is %.2f");
+        System.out.printf("Your current balance is %.2f",getBalance());
+    }
+
+    public static void main(String[] args) {
+        Bank b=new Bank();
+        b.deposit(200);
+        b.withdraw(50);
+        b.display();
     }
 
 
